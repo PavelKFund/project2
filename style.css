@@ -1,0 +1,41 @@
+body{
+   background: linear-gradient(to left, #cf926a, #029ae0);
+   filter: brightness(100%);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 34);
+}
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik Beastly', cursive;
+}
+h1{
+    color:  rgb(8, 104, 91);
+    font-family: 'Gluten', cursive;
+    text-align: center;
+}
+.pavel{
+    margin: 10px auto 20px;
+    display: block;
+    height: 25%;
+    width: 25%;
+    transition: 2s;
+}
+li{
+    color: white;
+}
+.kiev{
+    height: 25%;
+    width: 25%;
+    border-radius: 100%;
+    margin: 10px auto 20px;
+    display: block;
+    transition: 2s;
+}
+.kiev:hover {
+    transform: scale(1.8);
+   }
+.pavel:hover {
+    transform: scale(1.8);
+   }
